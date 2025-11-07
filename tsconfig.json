@@ -1,0 +1,25 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig.json",
+	"compilerOptions": {
+		"target": "ESNext",
+		"lib": ["ESNext", "DOM"],
+		"jsx": "react",
+		"jsxFactory": "Devvit.createElement",
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"declaration": true,
+		"emitDeclarationOnly": false,
+		"noImplicitAny": true,
+		"sourceMap": true,
+		"downlevelIteration": true,
+		"types": ["node", "@devvit/public-api"]
+	},
+	"include": ["./src/**/*"],
+	"exclude": ["node_modules"]
+}

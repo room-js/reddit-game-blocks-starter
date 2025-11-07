@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "name": "my-game-test1",
+  "version": "0.0.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "devvit playtest",
+    "lint": "biome check",
+    "deploy": "devvit upload",
+    "publish": "devvit publish",
+    "login": "devvit login",
+    "logs": "devvit logs",
+    "create": "devvit new",
+    "launch": "pnpm run build && pnpm run deploy && devvit publish",
+    "type-check": "tsc --build"
+  },
+  "dependencies": {
+    "@devvit/public-api": "0.12.1",
+    "@devvit/web": "0.12.1",
+    "devvit": "0.12.1",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.3.4",
+    "@types/node": "24.10.0",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "typescript": "5.9.3"
+  }
+}
