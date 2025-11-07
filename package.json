@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "my-game-test1",
+  "name": "my-game",
   "version": "0.0.0",
   "license": "MIT",
   "type": "module",
